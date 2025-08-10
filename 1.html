@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Image Mapping</title>
+
+</head>
+<body bgcolor="#111618">
+    <img src="Assets/GOT_MAP.jpg" width="1525" height="673" usemap="#Map">
+    <map name="Map">
+        <area shape="rect" coords="1281,18,1430,70" alt="MapName" href="https://youtu.be/c2c6ngcm8yA?feature=shared" onclick = "ShowMapName(event)" >
+        <area shape="circle" coords="470,372.5,14.5" href="https://youtu.be/VY3tAl2pC_s?feature=shared" alt="King's Landing" onclick="ShowKingLanding()">
+<area shape="poly" coords="458,120,436,116,425,112,413,112,397,111,379,119,368,124,355,127,343,133,348,143,355,150,366,155,384,163,418,138,436,145,418,130,449,132" href="https://youtu.be/RgDg6IF7tmU?feature=shared" alt="Direwolf" onclick="ShowDirewolf()">
+    </map>
+    <script>
+        function ShowMapName() {
+           event.preventDefault();
+            alert("You have entered into the map of Westeros where the game of thrones taken place⚔️. Click on the areas to explore!");
+            window.location.href = "https://youtu.be/c2c6ngcm8yA?feature=shared";
+        }
+        function ShowKingLanding() {
+           event.preventDefault();
+            alert("This area is the King's 👑 Landing 🏰, the capital of the Seven Kingdoms. It is a place of power, intrigue, and danger.");
+            window.location.href = "https://youtu.be/VY3tAl2pC_s?feature=shared";
+
+        }
+        function ShowDirewolf() {
+           event.preventDefault();
+            alert("The Direwolf is a symbol of the Stark family, representing loyalty, courage, and the harsh realities of life in the North. 🐺 This region is the North of Westeros called Winterfell. ");
+            window.location.href = "https://youtu.be/RgDg6IF7tmU?feature=shared";
+        }
+    </script>
+
+</body>
+</html>
