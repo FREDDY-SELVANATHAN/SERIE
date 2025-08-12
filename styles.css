@@ -55,3 +55,10 @@ a{
         color: #b3b3b3;
         margin-top: 8px;
     }
+.card-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
