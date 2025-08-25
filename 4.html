@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="Assets/television.png">
+    <title>Serie</title>
+
+</head>
+<body>
+    <header><h3> SERIE LOGIN</h3></header>
+    
+    <div class="form-container">
+        <form action="sigin" class="filler">
+            <div class="form-group">
+                <label for="firstName">FIRST NAME:</label>
+                <input type="text"  id="firstName" placeholder="Enter your first name">
+            </div>
+            <div class="form-group">
+                <label for="lastName">SECOND NAME:</label>
+                <input type="text" id="lastName" placeholder="Enter your second name">
+            </div>
+            <div class="form-group">
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="username">USERNAME:</label>
+                <input type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="form-group">
+                <label for="new_password">PASSWORD:</label>
+                <div class="password-wrapper">
+                <input type="password" id="new_password" placeholder="Enter your password">
+                <span id="togglePassword" class="eye-icon">🔒</span>
+                </div>
+            </div>
+            <small>
+                    Password must be at least 8 characters, include 1 uppercase, 1 lowercase, 
+                    1 number, and 1 special character.
+                </small>
+            <div class="form-group">
+                <label for="confirm_password">CONFIRM PASSWORD:</label>
+                <div class="password-wrapper">
+                <input type="password" id="confirm_password" placeholder="Confirm your password">
+                <span id="toggleConfirmPassword" class="eye-icon">🔒</span>
+                </div>
+                
+            </div>
+            <input type="button" value="SUBMIT" id="submitbtn">
+        </form>
+        <script src="4scripts.js"></script>
+    </div>
+</body>
